@@ -42,3 +42,5 @@ node() { lazy_nvm; node "$@"; }
 npm()  { lazy_nvm; npm "$@"; }
 npx()  { lazy_nvm; npx "$@"; }
 nvm()  { lazy_nvm; nvm "$@"; }
+
+source /home/arturosasan/.config/broot/launcher/bash/br
