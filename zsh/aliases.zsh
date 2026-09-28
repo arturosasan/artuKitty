@@ -57,3 +57,6 @@ alias path='echo $PATH | tr ":" "\n" | sort'
 alias weather="curl wttr.in/?format=3"
 
 alias ytmp3='yt-dlp -f bestaudio --extract-audio --audio-format mp3 --audio-quality 0 -o "%(title)s.%(ext)s"'
+
+alias xstart='sudo /opt/lampp/xampp start'
+alias xstop='sudo /opt/lampp/xampp stop'
